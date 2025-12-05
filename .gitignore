@@ -1,0 +1,110 @@
+# ===================================
+# ENVIRONMENT VARIABLES
+# ===================================
+.env
+.env.local
+.env.production
+.env.test
+
+# ===================================
+# NODE MODULES & DEPENDENCIES
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===================================
+# BUILD & DISTRIBUTION
+# ===================================
+dist/
+build/
+*.js.map
+
+# ===================================
+# TYPESCRIPT
+# ===================================
+*.tsbuildinfo
+
+# ===================================
+# LOGS
+# ===================================
+logs/
+*.log
+
+# ===================================
+# DATABASE
+# ===================================
+# Prisma
+prisma/migrations/*
+!prisma/migrations/.gitkeep
+*.db
+*.db-journal
+
+# ===================================
+# TESTING
+# ===================================
+coverage/
+.nyc_output/
+*.test.ts.snap
+
+# ===================================
+# IDE & EDITOR
+# ===================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# ===================================
+# OS FILES
+# ===================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===================================
+# TEMPORARY FILES
+# ===================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# ===================================
+# UPLOADS & STORAGE
+# ===================================
+uploads/
+storage/
+
+# ===================================
+# CERTIFICATES & KEYS
+# ===================================
+*.pem
+*.key
+*.cert
+*.crt
+
+# ===================================
+# DOCKER
+# ===================================
+docker-compose.override.yml
